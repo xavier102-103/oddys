@@ -1,0 +1,311 @@
+
+@font-face {
+  font-family: 'ITCAvantGardeGothic';
+  src: url('../lib/font/itc_avant_garde_gothic_book.woff') format('woff');
+}
+html.open{
+  overflow-y: hidden;
+}
+body {
+  background-color: #fff;
+  font-family: 'ITCAvantGardeGothic', sans-serif;
+  
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main-container{
+  position: relative;
+  overflow-x: hidden;
+}
+
+.container-fluid{
+  padding-left:5% !important;
+  padding-right: 5% !important;
+}
+
+/* Vuetify style bug */
+select, .v-input--selection-controls__ripple, .v-icon {
+  -webkit-appearance: auto !important;
+  -webkit-user-select: auto !important;
+}
+
+.v-input__icon {
+  display: none !important;
+}
+
+.v-input .v-label {
+  height: 30px !important;
+}
+
+
+.v-card__text {
+  padding: 5px !important;
+}
+
+.v-footer {
+  margin-top: auto !important;
+}
+
+.icon-container {
+  position: absolute !important;
+  top: 60px !important;
+  right: 10px !important;
+}
+/*************************/
+
+/* Alerts */
+.alert-error, .alert-ok {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.alert-ok {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+/**************************/
+
+/* Article card (home & news) */
+.article-card {
+  background-color: #f9f1eb !important;
+  box-shadow: 0 10px 20px #cac9c8 !important;
+  margin-bottom: 1rem;
+}
+
+.cover-picture-card {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.article-card-title {
+  font-size: 15px !important;
+  font-weight: bold !important;
+  margin-bottom: 5%;
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+  line-height: normal !important;
+}
+
+.article-card-content p {
+  margin-bottom: 5%;
+}
+
+.card-read-article {
+  text-decoration: none;
+  background-color: #058080;
+  color: #FFFFFF;
+  padding: 2%;
+  padding-right: 6%;
+  padding-left: 6%;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+.card-read-article-content {
+  display: flex;
+  align-items: center;
+}
+
+.card-read-article-content p {
+  text-transform: uppercase;
+}
+/*************************/
+
+/* Page de connexion admin */
+.admin-login-container {
+  margin: 13% 13% 2%;
+}
+.admin-login-form {
+  background-color: aliceblue;
+  padding: 2%;
+}
+
+.admin-login-form button {
+  background-color: #058080;
+  color: white;
+  padding: 1% 3%;
+  border-radius: 12px;
+  margin: 2% 0;
+}
+/* -------------------------- */
+
+/* base */
+
+/** typo */
+h1{
+   
+    font-size: 25px;
+    color:#222222 ;
+}
+h2{
+  font-size:20px;
+  font-weight: 400;
+}
+
+h3{
+  font-size: 18px;
+  color:#222222 ;
+  font-weight: 400;
+}
+
+@media(min-width:992px){
+  h1{
+    font-size: 40px;
+  }
+  h2{
+    font-size:38px;
+  }
+  h3{
+    font-size:24px;
+  }
+}
+@media (min-width: 1400px) {
+  
+  .demo-btn,.demo-btn-alt{
+      font-size: 19px;
+  }
+}
+@media (min-width: 1500px) {
+ 
+  .demo-btn,.demo-btn-alt{
+      font-size: 20px;
+  }
+}
+/* CTA */
+.demo-btn,.demo-btn-alt,.demo-btn-ter {
+  text-decoration: none;
+  border: 1px solid #F45C48;
+  display:inline-block;
+  color: #FFFFFF !important;
+  padding: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color:  #F45C48;
+
+  
+}
+
+.demo-btn:hover,.demo-btn-alt:hover,.demo-btn-ter:hover{
+ 
+  color:#F45C48 !important;
+  background-color:  white;
+}
+
+.demo-btn-alt{
+  border: 1px solid #078080;
+  background-color:  #078080;
+  
+}
+.demo-btn-ter{
+  border: 1px solid #F45C48;
+  background-color:  white;
+  color:#F45C48 !important;
+}
+
+.demo-btn-alt:hover{
+   color:#078080 !important;
+   
+}
+
+.demo-btn-ter:hover{
+   color:white !important;
+   background-color:  #F45C48;
+}
+
+#back-to-top {
+  display: inline-block;
+  background-color: #078080;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#back-to-top::after {
+  position: relative;
+  top:10px;
+    /* top: 3pt; Uncomment this to lower the icons as requested in comments*/
+    content: "";
+    display: inline-block;
+    /* By using an em scale, the arrows will size with the font */
+    width: 15px;
+    height: 15px;
+    border-right: 0.2em solid white;
+    border-top: 0.2em solid white;
+    transform: rotate(-45deg);
+    
+}
+#back-to-top:hover {
+  cursor: pointer;
+  background-color: #F45C48;
+}
+#back-to-top:active {
+  background-color: #F45C48;
+}
+#back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/* Information */
+.information{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.information h1{
+  text-align:center;
+}
+
+@media(min-width:992px){
+  .information{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+}
+
+/** COOKIE BAR*/
+#cookies-policy.cookies{
+  left : 0 !important;
+  right: auto !important;
+}
+.cookies__details{
+  color:#078080 !important;
+}
+
+#cookies-policy .cookies__category input:checked+.cookies__box:after{
+  background:#F45C48 !important;
+}
+
+#cookies-policy .cookies__title {
+  line-height: 1.1em !important;
+  
+}

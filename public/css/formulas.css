@@ -1,0 +1,176 @@
+.formulas {
+   padding-top:50px;
+   padding-bottom:50px;
+   
+}
+.formulas img{
+    height: 20px;
+}
+.formulas h1 {
+    margin-bottom:50px;   
+    text-align:center;   
+}
+
+.formulas .v-slide-group__content{
+    justify-content: center;
+    width: 100%;
+}
+.formulas .v-tabs-bar .v-tab{
+    font-size: 12px;
+}
+.formulas .v-tabs-slider-wrapper {
+    bottom: 0;
+    margin: 0 !important;
+    position: absolute;
+    transition: .3s cubic-bezier(.25, .8, .5, 1);
+    z-index: 1;
+    color: #FF6057;
+}
+
+.formulas .v-tab{
+    text-transform: math-auto;
+    font-size: 20px;
+    color:#3B3A3A !important;
+}
+.formulas .v-tab:before{
+    background-color: white;
+}
+
+.formulas .v-tabs-items{
+    margin-top: 100px;
+}
+.formulas__tab{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    padding: 10px;
+    text-align: center;
+}
+.formulas__tab--card {
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 30px;
+    
+}
+
+.formulas__tab--title {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 40px;
+}
+
+.formulas__tab--title h3{
+   
+    margin-left: 10px;
+    position: relative;
+    top: 5px;
+}
+
+
+.formulas__tab--description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 45px;
+    
+}
+
+.formulas-contractors-functionnalities, .formulas-suppliers-functionnalities {
+    margin-bottom: 20px;
+}
+
+.formulas-contractors-functionnalities-name, .formulas-suppliers-functionnalities-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulas-contractors-functionnalities-name p, .formulas-suppliers-functionnalities-name p {
+    
+    margin-right: 3%;
+}
+
+.formulas-contractors-functionnalities-description, .formulas-suppliers-functionnalities-description {
+    
+    color: #058080;
+    margin-bottom: 20px;
+}
+
+.formulas-contractors-functionnalities-svg, .formulas-suppliers-functionnalities-svg {
+    margin-top: 3%;
+}
+
+.formulas-contractors-info-supplier-portal {
+    display: none;
+}
+
+.formulas-contractors-functionnalities-demo-button, .formulas-suppliers-functionnalities-demo-button {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FF6057;
+    border: 1px solid #FF6057;
+    color: #FFFFFF;
+    padding: 3% 13%;
+    border-radius: 20px;
+    font-size: 17px;
+   
+}
+.limited{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.formulas .demo-btn{
+    margin-top: 30px;
+}
+.popular{
+    position: relative;
+}
+.popular-badge {
+    background-color: #FBE089;
+    
+    padding: 10px;
+    border-radius: 7px;
+    position: absolute;
+    left: 45%;
+    top: -20px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: #078080;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px;
+    width: 220px;
+    position: absolute;
+    top: 100%;
+    left: -961%;
+    z-index: 1;
+    text-align: left;
+}
+.tooltiptext li{
+    padding-bottom: 10px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+@media(min-width:992px){
+    .formulas{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .formaulas h1{
+        margin-bottom: 100px;
+    }
+    .formulas .v-tabs-bar .v-tab{
+        font-size: 20px;
+    }
+}

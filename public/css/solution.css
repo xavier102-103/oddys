@@ -1,0 +1,89 @@
+
+
+/* Optimise section */
+.solution__optimise,.solution__advantages__provider {
+    background-color: #f9f5f2;
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.solution__optimise__image,.solution__advantages_image,.solution__advantages__provider__image{
+    margin-top: 50px !important;
+    display: grid;
+    justify-content: center;
+}
+.solution__optimise__image img{
+   width: 100%;
+max-width: 580px;
+margin: auto;
+}
+.solution__advantages__image img{
+   width: 100%;
+   max-width: 580px;
+   margin: auto;
+} 
+.solution__optimise__content--link{
+   text-align: center;
+    
+}
+.solution__advantages__provider__image img{
+   width: 100%;
+   max-width: 580px;
+   margin: auto;
+} 
+.solution__advantages__provider__content--link{
+    text-align: center;
+}
+.solution__advantages__content--link{
+    text-align:center;
+}
+.solution__advantages{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.solution__advantages h2,.solution__advantages__provider h2{
+    text-align: center;
+    padding-bottom:50px;
+    font-weight: bold;
+}
+.solution__advantages h3,.solution__advantages__provider h3{
+    font-weight: 600;
+}
+.solution__advantages__content--list{
+    border-left:2px dashed #707070 ;
+    padding-left: 60px;
+}
+@media only screen and (min-width: 992px){
+    .solution__optimise,.solution__advantages,.solution__advantages__provider{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .solution__optimise__content--link{
+        text-align: left;
+         
+     }
+     .solution__advantages__content--link{
+        text-align:right;
+    }
+    .solution__advantages__provider__content--link{
+        text-align: left;
+    }
+    .solution__optimise__content,.solution__advantages__content{
+        padding-top: 50px !important;
+    }
+    .solution__optimise__image,.solution__advantages__probider__image{ 
+        margin-top: 0px !important;
+        justify-content: end;
+    }
+    .solution__advantages__image{ 
+        margin-top: 0px !important;
+        justify-content: start;
+    }
+     
+    .solution__advantages h2{
+       
+        padding-bottom:100px;
+    }
+
+}

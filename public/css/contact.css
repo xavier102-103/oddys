@@ -1,0 +1,50 @@
+.contact {
+   background-image:url('/img/contact/contact.svg');
+   background-size: cover;
+   background-position: top;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.contact-form-container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.contact-form-description{
+    text-align:center;
+}
+
+.contact-form-container form {
+    margin-top: 5%;
+    background-color: #fafafa;
+    padding: 8%;
+    padding-top: 5%;
+    padding-bottom: 6%;
+}
+
+
+
+
+
+.contact-required-information {
+    color: #FF6057;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+
+
+
+
+
+@media(min-width:992px){
+    .contact{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .contact-form-container {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,137 @@
+
+/* footer caroussel*/
+.footer__partners  {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.footer__partners h2{
+    text-align: center;
+}
+
+.footer__partners .custom-next-button{
+   display:none;
+}
+.footer__partners .custom-next-button:hover svg circle{
+    fill: #078080;
+}
+.footer__partners .custom-prev-button:hover svg circle{
+    fill: #078080;
+}
+.footer__partners .custom-prev-button{
+    display:none;
+}
+
+.owl-carousel .owl-nav.disabled, .owl-dots.disabled {
+    display: block !important;
+}
+
+.owl-carousel .owl-item img {
+    width: 100px !important;
+    margin:auto;
+}
+
+.owl-carousel .item {
+    display: flex;
+    justify-content: center;
+    margin:20px;
+}
+.owl-item.active{
+    display: flex;
+    justify-content: center;
+}
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
+.owl-item.center{
+    margin-left: -1%;
+}
+.owl-stage-outer{
+    width: 80%;
+    margin: auto;
+}
+
+.footer__menu {
+    background-color: #365053 ;
+    color: white;
+    font-size: 13px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align:center;
+}
+ .footer__menu--logo{
+    width: 100%;
+    max-width: 300px;
+    margin:auto;
+ }
+ .footer__menu ul{
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+ }
+ .footer__menu ul li a{
+    text-decoration:none;
+    color:white;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    display:inline-block;
+ }
+
+.footer__menu .linkedin-link a{
+    border-left: 0px;
+}
+ 
+.footer__menu--linkedin{
+   
+    padding-top: 0px;
+}
+
+.legale-link a{
+   
+    display:flow !important;
+}
+
+@media only screen and (min-width: 992px) {
+    .footer__partners {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .footer__partners .custom-next-button{
+        display:block;
+        position: absolute;
+        right: 0%;
+        top: 20%;
+    }
+    
+    .footer__partners .custom-prev-button{
+        display:block;
+        position: absolute;
+        left: 0%;
+        top: 20%;
+    }
+    .footer__menu{
+        text-align:left;
+    }
+    .footer__menu .footer__menu--link{
+        padding-left:100px !important;
+    }
+    .footer__menu--linkedin{
+        display:flex;
+        align-items: end;
+        justify-content: end;
+        padding-top: 0px !important;
+    }
+    .footer__menu ul li a{
+        border-left: 1px solid white;  
+     }
+    
+    .footer__menu .linkedin-link a{
+        border-left: 0px;
+    }
+    .legale-link a{
+        margin-right: 10px;
+        display:inline-block !important;
+    }
+}

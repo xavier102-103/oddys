@@ -1,0 +1,300 @@
+
+
+/* Team section */
+
+.team__introduction--img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.team__introduction {
+    text-align: center;
+    margin-bottom: 3%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.team__presentation {
+   padding-top:50px;
+   padding-bottom:50px;
+}
+
+.team__presentation--img{
+    display:grid;
+    justify-content: center;
+}
+.team__presentation--img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 2px 1px 5px rgba(62, 62, 62, 0.5);
+    padding: 10px;
+    border:5px solid #078080;
+   
+}
+
+.team__presentation--content p{
+    font-weight: bold;
+}
+
+
+/* Values section */
+.team__values {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f9f5f2;
+}
+
+.team__values h2 {
+   text-align: center;
+   padding-bottom: 50px;
+}
+
+.team__values--card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    box-shadow: 2px 7px 16px rgba(0, 0, 0, 0.18);
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+/* Job offers section */
+.job {
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.job h2 {
+    padding-bottom: 50px;
+    text-align:center;
+}
+.job h3{
+    text-align:center;
+    padding-bottom: 50px;
+}
+
+/* offer */
+.offer {
+    padding-top: 50px;
+}
+
+
+
+/* Style for each card */
+.offer__card {
+    box-shadow: 2px 7px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.offer__card--title{
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.offer__card--localisation{
+    font-size:18px ;
+    margin-bottom: 30px;
+}
+.offer__card--description{
+    min-height:300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.offer__card--description ul {
+    list-style-type: circle;
+}
+
+.offer__card--description li {
+    margin-left: 6%;
+}
+
+.offer__card--skills {
+    list-style: none;
+    padding: 0;
+    margin: 2%;
+    margin-bottom: 8%;
+}
+
+.offer__card--skills li {
+    display: inline-block;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.offer__card--more{
+    text-align:center;
+}
+  
+/* Job offer */
+
+  
+  
+.offers-search-keywords, .offers-search-type {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.offers-search-button {
+  cursor: pointer;
+  padding: 0;
+  margin-top: auto; 
+}
+  
+#team-102-103 {
+    scroll-margin-top: 150px;
+}
+
+#values-102-103 {
+    scroll-margin-top: 100px;
+}
+
+
+/* Job offer page */
+.job__offer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.back-job-offers-btn{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #7C7C7C;
+    margin-bottom:50px;
+}
+
+.back-job-offers-btn img {
+    margin-right: 2%;
+    width:40px;
+    margin-top:0px !important;
+}
+
+.job__offer__list--title  {
+   font-weight: bold;
+   margin-bottom:10px;
+}
+
+
+.job__offer__list--type  {
+    background-color: #E6E6E6;
+    color: #222222;
+    padding: 2% 5.5%;
+    border-radius: 8px;
+    margin: 1%;
+    display: inline-block;
+}
+
+
+
+.job__offer__list--ul  {
+    list-style: none;
+}
+
+.job__offer__list--ul li {
+    display: inline-block;
+    background-color: #E6E6E6;
+    color: #222222;
+    padding: 1.2% 2.5%;
+    border-radius: 8px;
+    margin: 0.5%;
+}
+
+.job__offer__description{
+    box-shadow: 2px 7px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 40px !important;
+    margin-top:100px !important;
+}
+
+.job__offer__description ul {
+    margin: 3% 0 3% 5%;
+}
+
+
+
+/* Job offer contact */
+.job__offer__contact {
+    background-color: #f9f5f2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.job__offer__contact h2{
+    margin-bottom: 100px;
+}
+.job__offer__contact .container-fluid{
+    max-width: 1200px;
+}
+
+
+.job-offer-show-contact-firstname-lastname, .job-offer-show-contact-email-phone, .job-offer-show-contact-cv-message {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5%;
+}
+
+
+
+/* Different devices */
+@media only screen and (min-width: 568px) {
+   
+    .team__presentation--img img{
+        width: 200px;
+        height: 200px;
+       
+       
+    }
+}
+@media only screen and (min-width: 992px) {
+    .team__presentation,.team__values,.job,.job__offer,.job__offer__contact{
+        padding-top:100px;
+        padding-bottom: 100px;
+    }
+    .team__presentation--img img{
+        width: 225px;
+        height: 225px; 
+    }
+    .team__presentation h4{
+        font-size: 24px;
+    }
+    .team__presentation--content--description{
+        width: 50%;
+    }
+    .team__values h2,.job h2,.job h3 {
+        
+        padding-bottom: 100px;
+     }
+     .offer__card--title{
+        font-size:24px;
+        
+    }
+}
+
+@media(min-width:1200px){
+    .team__presentation--img{
+       
+        justify-content: end;
+    }
+}

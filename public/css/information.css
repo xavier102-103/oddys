@@ -1,0 +1,11 @@
+.information a{
+    text-decoration:none;
+    color:#058080;
+}
+.information li{
+    margin-left: 30px;
+}
+.information ul{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
